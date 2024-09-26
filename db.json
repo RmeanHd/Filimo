@@ -1,0 +1,1013 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "logo",
+      "link": "https://www.filimo.com/",
+      "src": "https://www.filimo.com/assets/web/ui/img-hyjUGF4iRmci82bufDLCA/filimo/fa-filimo-dark-logo.svg",
+      "alt": "لوگوفیلیمو"
+    }
+  ],
+
+  "submenu": [
+    {
+      "id": 2,
+      "link": "https://www.filimo.com/#tour",
+      "name": "فیلیموتور",
+      "svgtag": "ui-icon-fire"
+    },
+    {
+      "id": 3,
+      "link": "https://www.filimo.com/movies/%D9%81%DB%8C%D9%84%D9%85",
+      "name": "فیلم",
+      "arrow": "<svg fill='#949494' height='10px' width='10px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 330 330' xml:space='preserve' stroke='#949494'><g id='SVGRepo_bgCarrier' stroke-width='0'></g><g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g><g id='SVGRepo_iconCarrier'> <path id='XMLID_225_' d='M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z'></path> </g></svg>",
+      "dropdown": [
+        { "id": 1, "name": "انیمیشن" },
+        { "id": 2, "name": "کمدی" },
+        { "id": 3, "name": "وحشت" },
+        { "id": 4, "name": "اکشن" },
+        { "id": 5, "name": "هیجان انگیز" },
+        { "id": 6, "name": "جنگی" },
+        { "id": 7, "name": "علمی تخیلی" },
+        { "id": 8, "name": "عاشقانه" },
+        { "id": 9, "name": "ماجراجویی" },
+        { "id": 10, "name": "خانوادگی" },
+        { "id": 11, "name": "جنایی" },
+        { "id": 12, "name": "فانتزی" },
+        { "id": 13, "name": "رازآلود" },
+        { "id": 14, "name": "وسترن" },
+        { "id": 15, "name": "مستند" },
+        { "id": 16, "name": "درام" },
+        { "id": 17, "name": "تاریخی" },
+        { "id": 18, "name": "ورزشی" }
+      ]
+    },
+    {
+      "id": 4,
+      "link": "https://www.filimo.com/series/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84",
+      "name": "سریال",
+      "arrow": "<svg fill='#949494' height='10px' width='10px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 330 330' xml:space='preserve' stroke='#949494'><g id='SVGRepo_bgCarrier' stroke-width='0'></g><g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g><g id='SVGRepo_iconCarrier'> <path id='XMLID_225_' d='M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z'></path> </g></svg>",
+      "dropdown": [
+        { "id": 1, "name": "کمدی" },
+        { "id": 2, "name": "انیمیشن" },
+        { "id": 3, "name": "ریلیتی شو" },
+        { "id": 4, "name": "خانوادگی" },
+        { "id": 5, "name": "عاشقانه" },
+        { "id": 6, "name": "وحشت" },
+        { "id": 7, "name": "اکشن" },
+        { "id": 8, "name": "جنگی" },
+        { "id": 9, "name": "مستند" },
+        { "id": 10, "name": "جنایی" },
+        { "id": 11, "name": "تاریخی" },
+        { "id": 12, "name": "علمی تخیلی" },
+        { "id": 13, "name": "هیجان انگیز" },
+        { "id": 14, "name": "درام" },
+        { "id": 15, "name": "رازآلود" },
+        { "id": 16, "name": "تاک شو" },
+        { "id": 17, "name": "ماجراجویی" },
+        { "id": 18, "name": "گیم شو" }
+      ]
+    },
+    {
+      "id": 5,
+      "link": "https://www.filimo.com/tag/iranian/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C",
+      "name": "ایرانی"
+    },
+    {
+      "id": 6,
+      "link": "https://www.filimo.com/tag/foreign",
+      "name": "خارجی"
+    },
+    {
+      "id": 7,
+      "link": "https://www.filimo.com/#",
+      "name": "مجموعه ها",
+      "arrow": "<svg fill='#949494' height='10px' width='10px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 330 330' xml:space='preserve' stroke='#949494'><g id='SVGRepo_bgCarrier' stroke-width='0'></g><g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g><g id='SVGRepo_iconCarrier'> <path id='XMLID_225_' d='M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z'></path> </g></svg>",
+      "dropdown": [
+        { "id": 1, "name": "فیلم‌های ایمان صفا" },
+        { "id": 2, "name": "براساس داستان واقعی" },
+        { "id": 3, "name": "فیلم‌های رعنا آزادی ور" },
+        { "id": 4, "name": "پایان غیر منتظره" },
+        { "id": 5, "name": "فیلم‌های غلامرضا نیکخواه" },
+        { "id": 6, "name": "هوش مصنوعی" },
+        { "id": 7, "name": "فیلم‌های هانیه توسلی" },
+        { "id": 8, "name": "هنر های رزمی" }
+      ]
+    },
+    {
+      "id": 8,
+      "link": "https://www.filimo.com/#tour",
+      "name": "فیلیمو مدرسه",
+      "svgtag": "icon-school"
+    },
+    {
+      "id": 9,
+      "link": "https://www.filimo.school/?utm_source=filimo-web&utm_medium=navigation&utm_campaign=filimo-user&utm_content=home",
+      "name": "کودک",
+      "arrow": "<svg fill='#949494' height='10px' width='10px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 330 330' xml:space='preserve' stroke='#949494'><g id='SVGRepo_bgCarrier' stroke-width='0'></g><g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g><g id='SVGRepo_iconCarrier'> <path id='XMLID_225_' d='M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z'></path> </g></svg>",
+      "dropdown": [
+        { "id": 1, "name": "شبکه کودک" },
+        { "id": 2, "name": "انیمیشن زیر ۱۵ سال" },
+        { "id": 3, "name": "کودک ایرانی" },
+        { "id": 4, "name": "باب اسفنجی" },
+        { "id": 5, "name": "سگ‌ های نگهبان" },
+        { "id": 6, "name": "ماجراجویی" },
+        { "id": 7, "name": "دختر کفشدوزکی" },
+        { "id": 8, "name": "ولاد و نیکی" },
+        { "id": 9, "name": "هتل ترانسیلوانیا" },
+        { "id": 10, "name": "بچه رئیس" },
+        { "id": 11, "name": "اژدها و هیولاها" },
+        { "id": 12, "name": "ماشین‌ها" },
+        { "id": 13, "name": "پرنسس" }
+      ],
+      "svgtag": "icon-horse"
+    },
+    {
+      "id": 10,
+      "link": "https://www.filimo.com/search",
+      "name": "جستجو",
+      "svgtag": "search"
+    }
+  ],
+
+  "login": [
+    {
+      "id": 1,
+      "name": "خرید اشتراک",
+      "link": "https://www.filimo.com/signin",
+      "searchLink": "https://www.filimo.com/search"
+    },
+    {
+      "id": 2,
+      "name": "ورود",
+      "link": "https://www.filimo.com/signin"
+    }
+  ],
+
+  "slider": [
+    {
+      "id": 1,
+      "desktopSrc": "https://static.cdn.asset.filimo.com/ct/hpvnd_desktop_1_v2.jpeg?width=1920&quality=85&secret=slJ_dmMTQsB0HI8sbT5gcg?6",
+      "mobileSrc": "https://static.cdn.asset.filimo.com/ct/hpvnd_mobile_1_v2.jpeg?width=960&quality=85&secret=R0BH_KQEMsW2Ar6gzwLSSA?6",
+      "alt": "item-1",
+      "exclusive": "https://www.filimo.com/assets/web/ui/img-hyjUGF4iRmci82bufDLCA/filimo/exclusive-fa.svg",
+      "movieAlt": "item-1",
+      "movieLogo": "https://static.cdn.asset.filimo.com/ct/hpvnd_logotype_v2.png?width=300&quality=85&secret=z2awETfTiwPav6R6_gk8Cg",
+      "time": "ساعت ۸ صبح",
+      "details": "قسمت آخر",
+      "btnText": "تماشای رایگان",
+      "btnLink": "https://www.filimo.com/m/hpvnd"
+    },
+    {
+      "id": 2,
+      "desktopSrc": "https://static.cdn.asset.filimo.com/ct/135321_desktop_1_v1.jpeg?width=1920&quality=85&secret=S1sVsqGftckgNRpneVIJ_w?6",
+      "mobileSrc": "https://static.cdn.asset.filimo.com/ct/135321_mobile_1_v1.jpeg?width=960&quality=85&secret=63ALCByTumyvNKIoEZ7zdA?6",
+      "alt": "item-1",
+      "exclusive": "https://www.filimo.com/assets/web/ui/img-hyjUGF4iRmci82bufDLCA/filimo/exclusive-fa.svg",
+      "movieAlt": "item-1",
+      "movieLogo": "https://static.cdn.asset.filimo.com/ct/135321_logotype_v1.png?width=300&quality=85&secret=Gz2jcLSA03RooCHuVmU2Yw",
+      "time": "",
+      "details": "کنترل دنیای جنایتکاران",
+      "btnText": "تماشای رایگان",
+      "btnLink": "https://www.filimo.com/m/hpvnd"
+    },
+    {
+      "id": 3,
+      "desktopSrc": "https://static.cdn.asset.filimo.com/ct/5csyz_desktop_1_v3.jpeg?width=1920&quality=85&secret=pEUYsUIvWqWxg44zGk6HFw?6",
+      "alt": "item-2",
+      "exclusive": "https://www.filimo.com/assets/web/ui/img-hyjUGF4iRmci82bufDLCA/filimo/exclusive-fa.svg",
+      "movieAlt": "item-2",
+      "time": " یکشنبه‌ها، ساعت ۸ صبح",
+      "details": " اگه یک قدمی شکست هم بودی، لبخند بزن",
+      "btnText": "تماشای رایگان",
+      "btnLink": "https://www.filimo.com/m/hpvnd"
+    }
+  ],
+
+  "special": [
+    {
+      "id": 1,
+      "header": [
+        {
+          "title": "ویژه",
+          "link": "https://www.filimo.com/tag/ExclusiveSeries",
+          "viewall": "مشاهده همه",
+          "textlink": "https://www.filimo.com/tag/12097123"
+        }
+      ],
+      "slides": []
+    },
+    {
+      "id": 2,
+      "slides": [
+        {
+          "id": 1,
+          "description": "زخم کاری: انتقام - فصل ۳ قسمت ۱۴ (قسمت آخر)",
+          "details": " ۱۴۰۳ - درام - رازآلود",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149708_186390.jpg?width=400&quality=85&secret=ZJvg5eUGiN5s8_zhV3oDuA",
+          "alt": "item-1",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 2,
+          "description": "بازنده - فصل ۱ قسمت ۱",
+          "details": "۱۴۰۳ - جنایی - رازآلود",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_134994_187194.jpg?width=400&quality=85&secret=UldW961-1iGP99UJGmYaBg",
+          "alt": "item-2",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 3,
+          "description": "گل یا پوچ - فصل ۱ قسمت ۹",
+          "details": "۱۴۰۳ - ریلیتی شو",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150029_187263.jpg?width=400&quality=85&secret=7dXP9VUM7NsFkKVKNl-Qbw",
+          "alt": "item-3",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 4,
+          "description": "پنگوئن - فصل ۱ قسمت ۱",
+          "details": "۲۰۲۴ - جنایی - درام - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_135323_187065.jpg?width=400&quality=85&secret=tAMz0bs7mRGFdWTId5ArLg",
+          "alt": "item-4",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 5,
+          "description": "گرگ و میش الهگان - فصل ۱ قسمت ۱",
+          "details": "۲۰۲۴ - انیمیشن - فانتزی - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150072_187259.jpg?width=400&quality=85&secret=7qZwCCS7aOYn7UeB9zqjBw",
+          "alt": "item-5",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 6,
+          "description": "ارباب حلقه ها: حلقه های قدرت - فصل ۲ قسمت ۱۱",
+          "details": "۲۰۲۴ - اکشن - ماجراجویی - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149528_185700.jpg?width=400&quality=85&secret=cGk6h83D1S43Vzn9juafRQ",
+          "alt": "item-6",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 7,
+          "description": "ستمگر - فصل ۱ قسمت ۱",
+          "details": "۲۰۲۴ - درام - اکشن - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149206_185031.jpg?width=400&quality=85&secret=sH0g_B7dtQWpORbnSPIOew",
+          "alt": "item-7",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 8,
+          "description": "قهرمانان از دست رفته",
+          "details": "۲۰۲۴ - اکشن - جنایی - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150036_187261.jpg?width=400&quality=85&secret=nAKe36LD1sOVnSkzuZWAnA",
+          "alt": "item-8",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 9,
+          "description": "کلاغ",
+          "details": "۲۰۲۴ - وحشت - عاشقانه - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149916_186621.jpg?width=400&quality=85&secret=KnLEnXnYb4Cz_6teRg9eZg",
+          "alt": "item-9",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 10,
+          "description": "آن ها که دم مرگند - فصل ۱ قسمت ۱",
+          "details": "۲۰۲۴ - اکشن - کمدی - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_148625_183596.jpg?width=400&quality=85&secret=levPS_G_wDNuRj0yMTk1iA",
+          "alt": "item-10",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 11,
+          "description": "۲۰۰% گرگ",
+          "details": "۲۰۲۴ - انیمیشن - کمدی - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150075_187260.jpg?width=400&quality=85&secret=Bys3OfmbmNeT48ySyLKPrQ",
+          "alt": "item-11",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 12,
+          "description": "لالایی - فصل ۱ قسمت ۵",
+          "details": "۱۴۰۳ - خانوادگی",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150076_187457.jpg?width=400&quality=85&secret=blPlFwqAtCHyj6biw-ePIA",
+          "alt": "item-12",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 13,
+          "description": "بی بدن",
+          "details": "۱۴۰۲ - جنایی - درام - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_148573_183522.jpg?width=400&quality=85&secret=37dDTOb-6zRFBBUdLmmseA",
+          "alt": "item-13",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 14,
+          "description": "من - فصل ۱ قسمت ۱",
+          "details": "۲۰۲۴ - ماجراجویی - خانوادگی - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_148501_182716.jpg?width=400&quality=85&secret=bJJuHibA6OTZR7fp3Yze9A",
+          "alt": "item-14",
+          "freetext": "رایگان رایتلی"
+        },
+        {
+          "id": 15,
+          "description": "سرگیجه - فصل ۴ قسمت ۲",
+          "details": "۱۴۰۳ - ریلیتی شو",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149906_186742.jpg?width=400&quality=85&secret=gd06rUn10EHLS81qLEWE0g",
+          "alt": "item-15",
+          "freetext": "رایگان رایتلی"
+        }
+      ]
+      
+    }
+  ],
+
+  "specialextra": [
+    {
+      "id": 1,
+      "description": "مرز یاغیان",
+      "details": "۲۰۲۴ - اکشن - جنایی - دوبله شده",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149696_186116.jpg?width=400&quality=85&secret=H8lajKNFRq7g-dUap403iA",
+      "alt": "item-1",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 2,
+      "description": "از سوی - فصل ۳ قسمت ۱",
+      "details": "۲۰۲۴ - درام - وحشت - زیرنویس دارد",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_150109_187480.jpg?width=400&quality=85&secret=da-WmdUMP0VFxfhQEtRSAA",
+      "alt": "item-2",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 3,
+      "description": "وحشت زده",
+      "details": "۲۰۲۴ - وحشت - رازآلود - زیرنویس دارد",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_150086_187479.jpg?width=400&quality=85&secret=oXUW5yIkfKpKvIHC0Wbg_w",
+      "alt": "item-3",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 4,
+      "description": "سگ های جنگ",
+      "details": "۲۰۲۴ - اکشن - درام - زیرنویس دارد",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_150025_187088.jpg?width=400&quality=85&secret=cbaB4WWDB2MtPII-AzDGfA",
+      "alt": "item-4",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 5,
+      "description": "دره ستارگان",
+      "details": "۲۰۲۴ - اکشن - علمی تخیلی - دوبله شده",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149895_186653.jpg?width=400&quality=85&secret=qegVsoaxJVqKQKpDIQr-lg",
+      "alt": "item-5",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 6,
+      "description": "هارولد و مداد شمعی بنفش",
+      "details": "۲۰۲۴ - کمدی - خانوادگی - دوبله شده",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149558_185819.jpg?width=400&quality=85&secret=wxuWNAiEY0yxADAV_O-Grw",
+      "alt": "item-6",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 7,
+      "description": "ملکه وو - فصل ۱ قسمت ۱",
+      "details": "۲۰۲۴ - اکشن - درام - زیرنویس دارد",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_150052_187106.jpg?width=400&quality=85&secret=uIfAFiZazjjBBzfuC__7Ig",
+      "alt": "item-7",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 8,
+      "description": "کارمانی - فصل ۱ قسمت ۱۵",
+      "details": "۱۴۰۳ - ریلیتی شو",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149904_186740.jpg?width=400&quality=85&secret=52qWAnzNFiqWEdU75Cm44g",
+      "alt": "item-8",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 9,
+      "description": "سرگیجه - فصل ۴ قسمت ۳",
+      "details": "۱۴۰۳ - ریلیتی شو",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_150078_187478.jpg?width=400&quality=85&secret=xOuMhA5PNaDyHKBJaRd7-A",
+      "alt": "item-9",
+      "freetext": "رایگان رایتلی"
+    },
+    {
+      "id": 10,
+      "description": "جوکر ۲ - فصل ۲ قسمت ۵",
+      "details": "۱۴۰۳ - کمدی - ریلیتی شو",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149913_186801.jpg?width=400&quality=85&secret=9qrnJUAF5yQYO-kZyHW0iQ",
+      "alt": "item-10",
+      "freetext": "رایگان رایتلی"
+    }
+    
+  ],
+
+  "toprated": [
+    {
+      "id": 1,
+      "header": [
+        {
+          "title": "خفن ترین ها",
+          "link": "https://www.filimo.com/tag/ExclusiveSeries",
+          "viewall": "مشاهده همه",
+          "textlink": "https://www.filimo.com/tag/12097123"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slides": [
+        {
+          "id": 1,
+          "description": "جنایی - رازآلود",
+          "details": "۱۴۰۳ - ایران",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_134994_187092.jpg?width=300&quality=85&secret=s_YJ6qHhRdoalUkUmfjR-A",
+          "alt": "item-1",
+          "freetext": "رایگان رایتلی",
+          "maintext": " بازنده - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 1,
+          "description": "جنایی - رازآلود",
+          "details": "۱۴۰۳ - ایران",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_134994_187092.jpg?width=300&quality=85&secret=s_YJ6qHhRdoalUkUmfjR-A",
+          "alt": "item-1",
+          "freetext": "رایگان رایتلی",
+          "maintext": " بازنده - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 2,
+          "description": "اکشن - جنایی",
+          "details": "۲۰۲۴ - آمریکا - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150036_186891.jpg?width=300&quality=85&secret=OoMpN1UQO0xFbB9cOj4ETw",
+          "alt": "item-2",
+          "freetext": "رایگان رایتلی",
+          "maintext": "قهرمانان از دست رفته"
+        },
+        {
+          "id": 3,
+          "description": "اکشن - بیوگرافی",
+          "details": "۲۰۲۴ - هند - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149935_186661.jpg?width=300&quality=85&secret=aGeOm7mNQPn-0bLzNHg7jw",
+          "alt": "item-3",
+          "freetext": "رایگان رایتلی",
+          "maintext": "چاندوی قهرمان"
+        },
+        {
+          "id": 4,
+          "description": "اکشن - ماجراجویی",
+          "details": "۲۰۲۲ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_119991_39441-b.jpg?width=300&quality=85&secret=6ryecBuuKBpmFycfHRR42w",
+          "alt": "item-4",
+          "freetext": "رایگان رایتلی",
+          "maintext": "ارباب حلقه ها: حلقه های قدرت - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 5,
+          "description": "هیجان انگیز - اکشن",
+          "details": "۲۰۲۴ - کانادا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149559_185737.jpg?width=300&quality=85&secret=08NDgUgSFX6ZQWmm_jHxKg",
+          "alt": "item-5",
+          "freetext": "رایگان رایتلی",
+          "maintext": "هجوم گرگ ها"
+        },
+        {
+          "id": 6,
+          "description": "وحشت - هیجان انگیز",
+          "details": "۲۰۲۴ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149555_185735.jpg?width=300&quality=85&secret=2822TAEKh5FkcVtwgmNunA",
+          "alt": "item-6",
+          "freetext": "رایگان رایتلی",
+          "maintext": "رهایی"
+        },
+        {
+          "id": 7,
+          "description": "اکشن - ماجراجویی",
+          "details": "۲۰۲۴ - چین - هنگ کنگ - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149666_186019.jpg?width=300&quality=85&secret=E1WjFj0ZHMNmp8-aooi4zg",
+          "alt": "item-7",
+          "freetext": "رایگان رایتلی",
+          "maintext": "افسانه"
+        },
+        {
+          "id": 8,
+          "description": "اکشن - ماجراجویی",
+          "details": "۲۰۲۴ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149163_184929.jpg?width=300&quality=85&secret=DuFtLUi8wrl2Mwa4ii2J7g ",
+          "alt": "item-8",
+          "freetext": "رایگان رایتلی",
+          "maintext": "گردبادها"
+        }
+      ]
+    }
+  ],
+  "newer": [
+    {
+      "id": 1,
+      "header": [
+        {
+          "title": "خفن ترین ها",
+          "link": "https://www.filimo.com/tag/ExclusiveSeries",
+          "viewall": "مشاهده همه",
+          "textlink": "https://www.filimo.com/tag/12097123"
+        }
+      ]
+    }
+  ],
+  "newerslider": [
+    {
+      "id": 1,
+      "description": "جنایی - رازآلود",
+      "details": "۱۴۰۳ - ایران",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_134994_187092.jpg?width=300&quality=85&secret=s_YJ6qHhRdoalUkUmfjR-A",
+      "alt": "item-1",
+      "freetext": "رایگان رایتلی",
+      "maintext": " بازنده - فصل ۱ قسمت ۱"
+    },
+    {
+      "id": 1,
+      "description": "جنایی - رازآلود",
+      "details": "۱۴۰۳ - ایران",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_134994_187092.jpg?width=300&quality=85&secret=s_YJ6qHhRdoalUkUmfjR-A",
+      "alt": "item-1",
+      "freetext": "رایگان رایتلی",
+      "maintext": " بازنده - فصل ۱ قسمت ۱"
+    },
+    {
+      "id": 2,
+      "description": "اکشن - جنایی",
+      "details": "۲۰۲۴ - آمریکا - زیرنویس دارد",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_150036_186891.jpg?width=300&quality=85&secret=OoMpN1UQO0xFbB9cOj4ETw",
+      "alt": "item-2",
+      "freetext": "رایگان رایتلی",
+      "maintext": "قهرمانان از دست رفته"
+    },
+    {
+      "id": 3,
+      "description": "اکشن - بیوگرافی",
+      "details": "۲۰۲۴ - هند - زیرنویس دارد",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149935_186661.jpg?width=300&quality=85&secret=aGeOm7mNQPn-0bLzNHg7jw",
+      "alt": "item-3",
+      "freetext": "رایگان رایتلی",
+      "maintext": "چاندوی قهرمان"
+    },
+    {
+      "id": 4,
+      "description": "اکشن - ماجراجویی",
+      "details": "۲۰۲۲ - آمریکا - چندزبانه",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_119991_39441-b.jpg?width=300&quality=85&secret=6ryecBuuKBpmFycfHRR42w",
+      "alt": "item-4",
+      "freetext": "رایگان رایتلی",
+      "maintext": "ارباب حلقه ها: حلقه های قدرت - فصل ۱ قسمت ۱"
+    },
+    {
+      "id": 5,
+      "description": "هیجان انگیز - اکشن",
+      "details": "۲۰۲۴ - کانادا - چندزبانه",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149559_185737.jpg?width=300&quality=85&secret=08NDgUgSFX6ZQWmm_jHxKg",
+      "alt": "item-5",
+      "freetext": "رایگان رایتلی",
+      "maintext": "هجوم گرگ ها"
+    },
+    {
+      "id": 6,
+      "description": "وحشت - هیجان انگیز",
+      "details": "۲۰۲۴ - آمریکا - چندزبانه",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149555_185735.jpg?width=300&quality=85&secret=2822TAEKh5FkcVtwgmNunA",
+      "alt": "item-6",
+      "freetext": "رایگان رایتلی",
+      "maintext": "رهایی"
+    },
+    {
+      "id": 7,
+      "description": "اکشن - ماجراجویی",
+      "details": "۲۰۲۴ - چین - هنگ کنگ - چندزبانه",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149666_186019.jpg?width=300&quality=85&secret=E1WjFj0ZHMNmp8-aooi4zg",
+      "alt": "item-7",
+      "freetext": "رایگان رایتلی",
+      "maintext": "افسانه"
+    },
+    {
+      "id": 8,
+      "description": "اکشن - ماجراجویی",
+      "details": "۲۰۲۴ - آمریکا - چندزبانه",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149163_184929.jpg?width=300&quality=85&secret=DuFtLUi8wrl2Mwa4ii2J7g ",
+      "alt": "item-8",
+      "freetext": "رایگان رایتلی",
+      "maintext": "گردبادها"
+    }
+  ],
+
+  "slidertitle": [
+    {
+      "class": "special",
+      "title": "خفن ترین ها",
+      "link": "https://www.filimo.com/tag/ExclusiveSeries",
+      "viewall": "مشاهده همه",
+      "textlink": "https://www.filimo.com/tag/12097123"
+    },
+    {
+      "class": "toprated",
+      "title": "خفن ترین ها",
+      "link": "https://www.filimo.com/tag/ExclusiveSeries",
+      "viewall": "مشاهده همه",
+      "textlink": "https://www.filimo.com/tag/12097123"
+    }
+  ],
+
+  "sliders": [
+    {
+      "id": 1,
+      "slidertitle": [
+        {
+          "title": "خفن ترین ها",
+          "link": "https://www.filimo.com/tag/ExclusiveSeries",
+          "viewall": "مشاهده همه",
+          "textlink": "https://www.filimo.com/tag/12097123"
+        }
+      ],
+      "slider": [
+        {
+          "id": 1,
+          "description": "جنایی - رازآلود",
+          "details": "۱۴۰۳ - ایران",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_134994_187092.jpg?width=300&quality=85&secret=s_YJ6qHhRdoalUkUmfjR-A",
+          "alt": "item-1",
+          "freetext": "رایگان رایتلی",
+          "maintext": " بازنده - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 2,
+          "description": "اکشن - جنایی",
+          "details": "۲۰۲۴ - آمریکا - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150036_186891.jpg?width=300&quality=85&secret=OoMpN1UQO0xFbB9cOj4ETw",
+          "alt": "item-2",
+          "freetext": "رایگان رایتلی",
+          "maintext": "قهرمانان از دست رفته"
+        },
+        {
+          "id": 3,
+          "description": "اکشن - بیوگرافی",
+          "details": "۲۰۲۴ - هند - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149935_186661.jpg?width=300&quality=85&secret=aGeOm7mNQPn-0bLzNHg7jw",
+          "alt": "item-3",
+          "freetext": "رایگان رایتلی",
+          "maintext": "چاندوی قهرمان"
+        },
+        {
+          "id": 4,
+          "description": "اکشن - ماجراجویی",
+          "details": "۲۰۲۲ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_119991_39441-b.jpg?width=300&quality=85&secret=6ryecBuuKBpmFycfHRR42w",
+          "alt": "item-4",
+          "freetext": "رایگان رایتلی",
+          "maintext": "ارباب حلقه ها: حلقه های قدرت - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 5,
+          "description": "هیجان انگیز - اکشن",
+          "details": "۲۰۲۴ - کانادا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149559_185737.jpg?width=300&quality=85&secret=08NDgUgSFX6ZQWmm_jHxKg",
+          "alt": "item-5",
+          "freetext": "رایگان رایتلی",
+          "maintext": "هجوم گرگ ها"
+        },
+        {
+          "id": 6,
+          "description": "وحشت - هیجان انگیز",
+          "details": "۲۰۲۴ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149555_185735.jpg?width=300&quality=85&secret=2822TAEKh5FkcVtwgmNunA",
+          "alt": "item-6",
+          "freetext": "رایگان رایتلی",
+          "maintext": "رهایی"
+        },
+        {
+          "id": 7,
+          "description": "اکشن - ماجراجویی",
+          "details": "۲۰۲۴ - چین - هنگ کنگ - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149666_186019.jpg?width=300&quality=85&secret=E1WjFj0ZHMNmp8-aooi4zg",
+          "alt": "item-7",
+          "freetext": "رایگان رایتلی",
+          "maintext": "افسانه"
+        },
+        {
+          "id": 8,
+          "description": "اکشن - ماجراجویی",
+          "details": "۲۰۲۴ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149163_184929.jpg?width=300&quality=85&secret=DuFtLUi8wrl2Mwa4ii2J7g ",
+          "alt": "item-8",
+          "freetext": "رایگان رایتلی",
+          "maintext": "گردبادها"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slidertitle": [
+        {
+          "title": "تازه‌ها",
+          "link": "https://www.filimo.com/tag/ExclusiveSeries",
+          "viewall": "مشاهده همه",
+          "textlink": "https://www.filimo.com/tag/12097123"
+        }
+      ],
+      "slider": [
+        {
+          "id": 1,
+          "description": "علمی تخیلی - هیجان انگیز",
+          "details": "۲۰۲۴ - مجارستان - اندونزی",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149992_186754.jpg?width=300&quality=85&secret=is9cAuqZjgymmRheC2Xkdg",
+          "alt": "item-1",
+          "freetext": "رایگان رایتلی",
+          "maintext": "قلاب سنگ"
+        },
+        {
+          "id": 2,
+          "description": "جنایی - درام",
+          "details": "۲۰۲۴ - آمریکا",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_135321_58647.jpg?width=300&quality=85&secret=WO1iJ9NEEMhGW1GC6ssrdQ",
+          "alt": "item-2",
+          "freetext": "رایگان رایتلی",
+          "maintext": "پنگوئن"
+        },
+
+        {
+          "id": 3,
+          "description": "انیمیشن - اکشن",
+          "details": "۲۰۲۴ - آمریکا - کره جنوبی - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_145811_154113.jpg?width=300&quality=85&secret=H6UibF_EO3ah9aIez6Zk1Q",
+          "alt": "item-4",
+          "freetext": "رایگان رایتلی",
+          "maintext": "مردان ایکس ۹۷ - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 4,
+          "description": "جنایی - درام",
+          "details": "۲۰۱۴ - آمریکا - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_3971_1-b.jpg?width=300&quality=85&secret=XLH7_3IxF1eN_b1i_UNSNA",
+          "alt": "item-4",
+          "freetext": "رایگان رایتلی",
+          "maintext": "کاراگاه حقیقی -فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 5,
+          "description": "جنایی - درام",
+          "details": "۲۰۲۴ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_145341_152911.jpg?width=300&quality=85&secret=R06J9dQobPWO2bIfHHBSIA",
+          "alt": "item-5",
+          "freetext": "رایگان رایتلی",
+          "maintext": "ریپلی - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 6,
+          "description": "کمدی - درام",
+          "details": "۲۰۲۴ - آمریکا - زیرنویس دارد",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_118727_37611-b.jpg?width=300&quality=85&secret=rDN_8VFmwH4Kd3te9z-c2w",
+          "alt": "item-6",
+          "freetext": "رایگان رایتلی",
+          "maintext": "خرس - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 7,
+          "description": "اکشن - ماجراجویی",
+          "details": "۲۰۲۲ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_119991_39441-b.jpg?width=300&quality=85&secret=6ryecBuuKBpmFycfHRR42w",
+          "alt": "item-7",
+          "freetext": "رایگان رایتلی",
+          "maintext": "ارباب حلقه ها: حلقه های قدرت - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 8,
+          "description": "درام - هیجان انگیز",
+          "details": "۲۰۲۳ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_135632_59999.jpg?width=300&quality=85&secret=-2Q1TgqMgmzuDhrbHO8xfg",
+          "alt": "item-8",
+          "freetext": "رایگان رایتلی",
+          "maintext": "هواپیماربایی - فصل ۱ قسمت ۱"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slidertitle": [
+        {
+          "title": "داغ ترین ها",
+          "link": "https://www.filimo.com/tag/ExclusiveSeries",
+          "viewall": "مشاهده همه",
+          "textlink": "https://www.filimo.com/tag/12097123"
+        }
+      ],
+      "slider": [
+        {
+          "id": 1,
+          "description": "وحشت - عاشقانه",
+          "details": "۲۰۲۴ - آمریکا - انگلیس - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149916_186424.jpg?width=300&quality=85&secret=RF0Empy5CE0vlgUvCTbgrg",
+          "alt": "item-1",
+          "freetext": "رایگان رایتلی",
+          "maintext": "کلاغ"
+        },
+        {
+          "id": 2,
+          "description": "وحشت - رازآلود",
+          "details": "۲۰۲۴ - انگلیس - آمریکا",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150086_187393.jpg?width=300&quality=85&secret=GEw6fa0W6Lq4vQCwOV-nYQ",
+          "alt": "item-2",
+          "freetext": "رایگان رایتلی",
+          "maintext": "وحشت زده"
+        },
+        {
+          "id": 3,
+          "description": "فانتزی",
+          "details": "۲۰۲۴ - انگلیس",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150115_187481.jpg?width=300&quality=85&secret=Ilgn_FetM67nqEk712JzCA",
+          "alt": "item-3",
+          "freetext": "رایگان رایتلی",
+          "maintext": "جنگ سالار"
+        },
+        {
+          "id": 4,
+          "description": "اکشن - جنایی",
+          "details": "۲۰۲۴ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_149696_186077.jpg?width=300&quality=85&secret=W2q77_FwRGmd3vvCbkw2TQ",
+          "alt": "item-4",
+          "freetext": "رایگان رایتلی",
+          "maintext": "مرز یاغیان"
+        },
+        {
+          "id": 5,
+          "description": "انیمیشن - اکشن",
+          "details": "۲۰۲۳ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_140489_67198.jpg?width=300&quality=85&secret=A6kg6jvBdVXODf7vQJvWdQ",
+          "alt": "item-5",
+          "freetext": "رایگان رایتلی",
+          "maintext": "سامورایی چشم آبی - فصل ۱ قسمت ۱"
+        },
+        {
+          "id": 6,
+          "description": "جنایی - درام",
+          "details": "۲۰۲۴ - آمریکا",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150116_187483.jpg?width=300&quality=85&secret=MxqkbsssTId0QJemYudE1A",
+          "alt": "item-6",
+          "freetext": "رایگان رایتلی",
+          "maintext": "کارمند توانمند"
+        },
+        {
+          "id": 7,
+          "description": "درام - علمی تخیلی",
+          "details": "۲۰۲۴ - آمریکا",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_150050_187002.jpg?width=300&quality=85&secret=rEUdzvI3PGgGw4uTFsvEzQ",
+          "alt": "item-7",
+          "freetext": "رایگان رایتلی",
+          "maintext": "حلقه زمان"
+        },
+        {
+          "id": 8,
+          "description": "جنایی - درام",
+          "details": "۲۰۲۴ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_145341_152911.jpg?width=300&quality=85&secret=R06J9dQobPWO2bIfHHBSIA",
+          "alt": "item-8",
+          "freetext": "رایگان رایتلی",
+          "maintext": "ریپلی - فصل ۱ قسمت ۱"
+        }
+      
+      ]
+    },
+    {
+      "id": 4,
+      "slidertitle": [
+        {
+          "title": "انیمیشن",
+          "link": "https://www.filimo.com/tag/ExclusiveSeries",
+          "viewall": "مشاهده همه",
+          "textlink": "https://www.filimo.com/tag/12097123"
+        }
+      ],
+      "slider": [
+        {
+          "id": 1,
+          "description": "انیمیشن - ماجراجویی",
+          "details": "۲۰۱۱ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_7970_182227.jpg?width=300&quality=85&secret=PGE-qH3oG3ZrHdIc3CgG-w",
+          "alt": "item-1",
+          "freetext": "رایگان رایتلی",
+          "maintext": "رنگو"
+        },
+        {
+          "id": 2,
+          "description": "انیمیشن - اکشن",
+          "details": "۲۰۱۸ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_19659_1-b.jpg?width=300&quality=85&secret=Vb2B8dzKgZxHj9gt2kyG7Q",
+          "alt": "item-2",
+          "freetext": "رایگان رایتلی",
+          "maintext": "مرد عنکبوتی : به درون دنیای عنکبوتی"
+        },
+        {
+          "id": 3,
+          "description": "انیمیشن - ماجراجویی",
+          "details": "۲۰۰۷ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_20396_1-b.jpg?width=300&quality=85&secret=U1-A_FceuGJJ8X49-IkJkg",
+          "alt": "item-3",
+          "freetext": "رایگان رایتلی",
+          "maintext": "سیمپسون ها"
+        },
+        {
+          "id": 4,
+          "description": "انیمیشن - اکشن",
+          "details": "۲۰۰۳ - آمریکا - چندزبانه",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_srl_35025_920-b.jpg?width=300&quality=85&secret=EIAJgsrXXNu7yirBWElZ7Q",
+          "alt": "item-4",
+          "freetext": "رایگان رایتلی",
+          "maintext": "تایتان های جوان"
+        },
+        {
+          "id": 5,
+          "description": "انیمیشن - اکشن",
+          "details": "۲۰۲۱ - آمریکا - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_srl_94076_712-b.jpg?width=300&quality=85&secret=1Me8SFPnB07ek16JGHe1pw",
+          "alt": "item-5",
+          "freetext": "رایگان رایتلی",
+          "maintext": "اسپایدی و دوستان شگفت انگیزش"
+        },
+        {
+          "id": 6,
+          "description": "ماجراجویی - خانوادگی",
+          "details": "۲۰۱۷ - آمریکا - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_8817_1-b.jpg?width=300&quality=85&secret=gDK39UmL7uEh31OrH_U91A",
+          "alt": "item-6",
+          "freetext": "رایگان رایتلی",
+          "maintext": "دیو و دلبر"
+        },
+        {
+          "id": 7,
+          "description": "انیمیشن - اکشن",
+          "details": "۱۹۹۱ - فرانسه - کانادا - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_146402_155802.jpg?width=300&quality=85&secret=sUpjNvjMdRgM47AmwwNM7A",
+          "alt": "item-7",
+          "freetext": "رایگان رایتلی",
+          "maintext": "ماجراهای تن تن"
+        },
+        {
+          "id": 8,
+          "description": "انیمیشن - اکشن",
+          "details": "۲۰۱۹ - آمریکا - دوبله شده",
+          "src": "https://static.cdn.asset.filimo.com/flmt/mov_srl_19537_1-b.jpg?width=300&quality=85&secret=eqdMeI5zqpvU4sA26J2-EA",
+          "alt": "item-8",
+          "freetext": "رایگان رایتلی",
+          "maintext": "کارمن سندیگو"
+        }
+       
+       
+      
+      ]
+    }
+  ],
+
+  "dumb": [
+    {
+      "id": 1,
+      "tv": "تماشا با تلویزیون",
+      "app": "اپلیکیشن",
+      "service": "تماس و پشتیبانی",
+      "shop": "فروشگاه",
+      "other": "سایر لینک‌ها",
+      "othertexts": [
+        {
+          "id": 1,
+          "text": "قوانین"
+        },
+        {
+          "id": 2,
+          "text": "به ما بپیوندید"
+        },
+        {
+          "id": 3,
+          "text": "تبلیغات در فیلیمو"
+        },
+        {
+          "id": 4,
+          "text": "لوگو"
+        },
+        {
+          "id": 5,
+          "text": "دانلود فیلم و سریال"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "social": "شبکه‌های اجتماعی",
+      "aparat": "آپارات",
+      "telegram": "تلگرام",
+      "twitter": "توییتر",
+      "instagram": "اینستاگرام"
+    }
+  ]
+}

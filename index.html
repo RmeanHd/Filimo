@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/slider.css" />
+  </head>
+  <body id="#top" class="bg-[#151515]">
+    <div id="root">
+      <!-- Menu -->
+      <div
+        class="menu p-0 w-full laptop:h-[52px] mobile:h-[52px] bg-black tablet:h-auto sticky top-0 flex justify-center z-10"
+      >
+        <nav
+          class="w-[full] h-[inherit] flex flex-wrap items-center justify-start laptop:px-[32px] gap-x-[15px] tablet:justify-center tablet:px-0 laptop:justify-normal relative z-2"
+        >
+          <div
+            class="logo h-[inherit] flex flex-wrap items-center tablet: justify-center z-2"
+          ></div>
+          <div
+            class="submenu h-[inherit] tablet:flex flex-wrap items-center tablet:justify-center laptop:justify-normal laptop:gap-x-[10px] tablet:gap-x-0 mobile:hidden relative z-3"
+          ></div>
+          <div
+            class="login tablet:h-auto laptop:flex mobile:flex flex-wrap items-center justify-end gap-x-[4px] absolute left-5 tablet:hidden z-2"
+          ></div>
+        </nav>
+      </div>
+      <!-- Menu Ends Here -->
+      <!-- Slider -->
+      <div
+        class="slider w-full tablet:h-[554px] mobile:h-auto flex flex-wrap items-center justify-center"
+      >
+      
+        <div class="swiper mySwiper w-full h-[inherit] relative">
+          <div class="swiper-wrapper"></div>
+          <div
+            class="w-[100px] absolute left-[50px] tablet:bottom-[100px] mobile:bottom-[50px]"
+          >
+            <div
+              class="swiper-button-next w-[40px] h-[40px] bg-black/[0.4] size-0 flex flex-wrap items-center justify-center rounded-[50%] text-white"
+            ></div>
+            <div
+              class="swiper-button-prev w-[40px] h-[40px] bg-black/[0.4] size-0 flex flex-wrap items-center justify-center rounded-[50%] text-white"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider Ends Here -->
+      <!-- Filter -->
+      <!-- <div dir="ltr" class="w-full navbar px-[30px] py-[16px] bg-[#323232] mobile:hidden tablet:flex">
+        <button
+          class="btn w-[215px] bg-[#fdc13c] hover:bg-[#fdc13c] flex flex-wrap items-center justify-center"
+        >
+          <a
+            class="text-[#151515] text-[13px] font-medium flex items-center justify-center w-full h-[inherit]"
+            >Filter</a
+          >
+        </button>
+        <div class="flex flex-1 justify-end px-2">
+          <div class="p-[8px] flex justify-center items-center">
+            <div
+              class="w-full flex items-center justify-center dropdown dropdown-end relative"
+            >
+              <button
+                dir="rtl"
+                tabindex="0"
+                role="button"
+                class="filter w-[210px] border-1px border-solid border-[#606060] text-white btn btn-ghost rounded-btn text-end flex justify-between ml-1"
+              >
+                <span class="text"> Dropdown </span>
+                <svg
+                  fill="#949494"
+                  height="10px"
+                  width="10px"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 330 330"
+                  xml:space="preserve"
+                  stroke="#949494"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      id="XMLID_225_"
+                      d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="filter__menu block dropdown-content bg-black text-white z-[2] mt-4 w-52 p-2 shadow absolute top-[35px]"
+              >
+                <div
+                  class="dropdown-button p-[8px] flex flex-wrap items-center justify-end"
+                >
+                  <button
+                    class="item flex justify-end w-full h-[inherit] cursor-pointer"
+                  >
+                    Item 1
+                  </button>
+                </div>
+                <div
+                  class="dropdown-button p-[8px] flex flex-wrap items-center justify-end"
+                >
+                  <button
+                    class="item flex justify-end w-full h-[inherit] cursor-pointer"
+                  >
+                    Item 2
+                  </button>
+                </div>
+                <div
+                  class="dropdown-button p-[8px] flex flex-wrap items-center justify-end"
+                >
+                  <button
+                    class="item flex justify-end w-full h-[inherit] cursor-pointer"
+                  >
+                    Item 3
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full flex items-center justify-center dropdown dropdown-end relative"
+            >
+              <button
+                dir="rtl"
+                tabindex="0"
+                role="button"
+                class="filter w-[210px] border-1px border-solid border-[#606060] text-white btn btn-ghost rounded-btn text-end flex justify-between ml-1"
+              >
+                <span class="text"> Dropdown </span>
+                <svg
+                  fill="#949494"
+                  height="10px"
+                  width="10px"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 330 330"
+                  xml:space="preserve"
+                  stroke="#949494"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      id="XMLID_225_"
+                      d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="filter__menu block dropdown-content bg-black text-white z-[2] mt-4 w-52 p-2 shadow absolute top-[35px]"
+              >
+                <div
+                  class="dropdown-button p-[8px] flex flex-wrap items-center justify-end"
+                >
+                  <button
+                    class="item flex justify-end w-full h-[inherit] cursor-pointer"
+                  >
+                    Item 1
+                  </button>
+                </div>
+                <div
+                  class="dropdown-button p-[8px] flex flex-wrap items-center justify-end"
+                >
+                  <button
+                    class="item flex justify-end w-full h-[inherit] cursor-pointer"
+                  >
+                    Item 2
+                  </button>
+                </div>
+                <div
+                  class="dropdown-button p-[8px] flex flex-wrap items-center justify-end"
+                >
+                  <button
+                    class="item flex justify-end w-full h-[inherit] cursor-pointer"
+                  >
+                    Item 3
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- Filter Ends Here -->
+      <!-- Main Wrapper -->
+      <div
+        class="wrapper w-full h-auto flex flex-wrap items-center justify-center mt-[30px] gap-y-[30px] px-[30px]"
+      >
+        <!-- Special -->
+        <div class="special w-full">
+          <div class="w-full flex items-center justify-end"></div>
+          <div class="special__tabs w-full"></div>
+        
+          <div class="click w-full h-auto text-white flex flex-wrap items-center">
+            <div class="clicker w-full h-[40px] flex flex-wrap items-center mt-[10px] text-[11px] text-[#FDC13C]">
+              <button class="flex flex-wrap items-center" href="#">
+                <svg class="w-[14px] h-[14px] fill-[#FDC13C] ml-2" viewBox="0 0 24 24"><g id="ui-icon-arrow_down_ios" viewBox="0 0 24 24"><path d="M12 17a1 1 0 0 1-.73-.32l-7.5-8A1 1 0 1 1 5.23 7.32L12 14.54l6.77-7.22a1 1 0 1 1 1.46 1.36l-7.5 8A1 1 0 0 1 12 17Z"></path></g></svg>
+                نمایش همه فیلم های ویژه امروز
+              </button>
+            </div>
+            <div class="tab hidden mt-[10px] w-full h-auto desktop:grid-cols-5 laptop:grid-cols-4 tablet:grid-cols-3 mobileL:grid-cols-2 mobile:grid-cols-2 justify-center gap-y-[10px] gap-x-[5px] z-2 p-0">
+
+            </div>
+          </div>
+        </div>
+        <!-- Special Ends Here -->
+      </div>
+      <!-- Main Wrapper Ends Here -->
+      <div
+        class="dumb w-full h-[28px] fixed bottom-0 bg-[#191919] z-10 flex-wrap items-center justify-between mobile:hidden tablet:flex">
+        
+        
+      </div>
+    </div>
+
+ 
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./axios/dist/axios.min.js"></script>
+    <script type="module" src="./public/js/main.js"></script>
+  </body>
+</html>
