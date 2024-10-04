@@ -321,7 +321,6 @@
           "freetext": "رایگان رایتلی"
         }
       ]
-      
     }
   ],
 
@@ -406,7 +405,6 @@
       "alt": "item-10",
       "freetext": "رایگان رایتلی"
     }
-    
   ],
 
   "toprated": [
@@ -877,7 +875,6 @@
           "freetext": "رایگان رایتلی",
           "maintext": "ریپلی - فصل ۱ قسمت ۱"
         }
-      
       ]
     },
     {
@@ -963,9 +960,6 @@
           "freetext": "رایگان رایتلی",
           "maintext": "کارمن سندیگو"
         }
-       
-       
-      
       ]
     }
   ],
@@ -1008,6 +1002,64 @@
       "telegram": "تلگرام",
       "twitter": "توییتر",
       "instagram": "اینستاگرام"
+    }
+  ],
+
+  "cinema": [
+    {
+      "id": 1,
+      "title": "سینما آنلاین فیلیمو",
+      "text1": "فیلم‌های روز سینمای ایران",
+      "text2": "۸ ساعت زمان برای مشاهده فیلم در هر کجا",
+      "text3": "خرید یک بلیت برای تماشا همراه با همه خانواده",
+      "src": "https://static.cdn.asset.filimo.com/flmt/mov_149117_185998-b.jpg?width=165&quality=85&secret=xM0nQa0Yl05rba6kZpPMiQ",
+      "name": " تمساح خونی",
+      "director": "کارگردان:  null",
+      "genre1": "اکشن",
+      "genre2": "کمدی"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "title": "نظر کاربران بعد از تماشای فیلیمو",
+      "slider": [
+        {
+          "id": 1,
+          "profile": "https://www.filimo.com/assets/web/ui/img-KpotX5g2dIxoRKAEJGUuJA/campaigns/big-screen_v2/1.png",
+          "username": "RAMTIN",
+          "text": "عالیه خیلی فیلم و سریال های قشنگی داره"
+        },
+        {
+          "id": 2,
+          "profile": "https://www.filimo.com/assets/web/ui/img-KpotX5g2dIxoRKAEJGUuJA/campaigns/big-screen_v2/1.png ",
+          "username": "F.A",
+          "text": "خیلی خوبه تازه فیلم های 2021 رو هم با دوبله داره"
+        },
+        {
+          "id": 3,
+          "profile": "https://www.filimo.com/assets/web/ui/img-KpotX5g2dIxoRKAEJGUuJA/campaigns/big-screen_v2/1.png ",
+          "username": "نیکا کاوند",
+          "text": "خیلی خوب بود من راحت فیِلمی را که دوست داشتمو دانلود میکردم وغیر از دانلود راحت میتونستم فیلموببینم درهرحال راضیم ازاین برنامه."
+        },
+        {
+          "id": 4,
+          "profile": "https://www.filimo.com/assets/web/ui/img-KpotX5g2dIxoRKAEJGUuJA/campaigns/big-screen_v2/1.png ",
+          "username": "F.A",
+          "text": "خیلی خوبه تازه فیلم های 2021 رو هم با دوبله داره"
+        }
+      ]
+    }
+  ],
+  "frequent": [{ "id": 1 }],
+  "footer": [
+    {
+      "id": 1,
+      "src": "https://www.filimo.com/assets/web/ui/img-KpotX5g2dIxoRKAEJGUuJA/campaigns/nosub-v_new/logo_text.png",
+      "text1":"هزاران فیلم و سریال خارجی (دوبله و زیرنویس)",
+      "text2":"هزاران انیمیشن و کارتون برای کودکان",
+      "text3":"پشتیبانی 24 ساعته برای راهنمایی شما",
+      "btntext":"خرید اشتراک و تماشا"
     }
   ]
 }

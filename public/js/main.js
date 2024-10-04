@@ -5,6 +5,10 @@ import SpecialExtra from "./SpecialExtra/SpecialExtra.js";
 import New from "./New/New.js";
 import Sliders from "./Sliders/Sliders.js";
 import Dumb from "./Dumb/Dumb.js";
+import Cinema from "./Cinema/Cinema.js";
+import Comment from "./Comment/Comment.js";
+import Frequent from "./Frequent/Frequent.js";
+import Footer from "./Footer/Footer.js";
 
 Menu();
 Slider();
@@ -13,6 +17,10 @@ SpecialExtra();
 New();
 Sliders();
 Dumb();
+Cinema();
+Comment();
+Frequent();
+Footer();
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 0,
@@ -26,16 +34,17 @@ let clickme = document.querySelector(".click");
 let tab = document.querySelector(".click .tab");
 let clicker = document.querySelector(".click .clicker");
 
-clickme.addEventListener("click",()=>{
-  tab.classList.remove("hidden")
-  clicker.classList.add("hidden")
-  tab.classList.add("grid")
-  
-})
+clickme.addEventListener("click", () => {
+  tab.classList.remove("hidden");
+  clicker.classList.add("hidden");
+  tab.classList.add("grid");
+});
+
+
+
 // let dropDownButton = document.querySelector(".filter .text");
 // let dropDown = document.querySelector(".filter");
 // let buttons = document.querySelectorAll(".dropdown-button");
-
 
 // dropDown.addEventListener("click", () => {
 //   document.querySelector(".filter__menu").classList.remove("hidden");
@@ -53,4 +62,3 @@ clickme.addEventListener("click",()=>{
 //     dropDownButton.textContent = event.target.textContent;
 //   });
 // }
-

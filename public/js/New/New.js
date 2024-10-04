@@ -26,6 +26,39 @@ const New = async () => {
         spaceBetween: 0,
         
       });
+    var swiper = new Swiper(".myComment", {
+      breakpoints: {
+        375: { // mobile
+          slidesPerView: 1,
+        },
+        520: { // mobile
+          slidesPerView: 1,
+        },
+        680: { // mobile
+          slidesPerView: 2,
+        },
+        770: { // tablet
+          slidesPerView: 2,
+        },
+        1070: { // desktop
+          slidesPerView: 3,
+        },
+        1440: { // desktop
+          slidesPerView: 3,
+        },
+      },
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-next",
+      },
+        spaceBetween: 15,
+        
+      });
     // let newer = res.data.map((item) => {
     //   return `
     //         ${item.header
