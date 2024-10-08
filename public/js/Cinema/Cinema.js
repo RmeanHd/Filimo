@@ -71,7 +71,7 @@ const Cinema = async () => {
                   </a>  
             </div>
           </div>
-         <div class="online__text absolute left-5 top-5 w-[80px] h-[25px] bg-black/40 font-thin text-[10px] text-white px-[6px] py-1 flex flex-wrap items-center justify-center">
+         <div class="online__text mobile:hidden mobileL:flex absolute left-5 top-5 w-[80px] h-[25px] bg-black/40 font-thin text-[10px] text-white px-[6px] py-1 flex-wrap items-center justify-center">
           اکران آنلاین
         
          </div>

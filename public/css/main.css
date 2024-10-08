@@ -8823,6 +8823,10 @@ html:has(.drawer-open.drawer-open) {
   inset-inline-end: 0.25rem;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
 .left-3 {
   left: 0.75rem;
 }
@@ -8999,6 +9003,10 @@ html:has(.drawer-open.drawer-open) {
   margin-bottom: 2.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -9089,10 +9097,6 @@ html:has(.drawer-open.drawer-open) {
 
 .mt-\[8px\] {
   margin-top: 8px;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .box-border {
@@ -9291,6 +9295,10 @@ html:has(.drawer-open.drawer-open) {
   height: 60px;
 }
 
+.h-\[70px\] {
+  height: 70px;
+}
+
 .h-\[75px\] {
   height: 75px;
 }
@@ -9305,14 +9313,6 @@ html:has(.drawer-open.drawer-open) {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[70px\] {
-  height: 70px;
 }
 
 .min-h-\[164px\] {
@@ -11882,14 +11882,6 @@ html:has(.drawer-open.drawer-open) {
     width: 100%;
   }
 
-  .mobile\:max-w-\[370px\] {
-    max-width: 370px;
-  }
-
-  .mobile\:max-w-\[385px\] {
-    max-width: 385px;
-  }
-
   .mobile\:max-w-\[390px\] {
     max-width: 390px;
   }
@@ -11912,6 +11904,10 @@ html:has(.drawer-open.drawer-open) {
 
   .mobileL\:block {
     display: block;
+  }
+
+  .mobileL\:flex {
+    display: flex;
   }
 
   .mobileL\:grid-cols-2 {
