@@ -42,23 +42,23 @@ clickme.addEventListener("click", () => {
 
 
 
-// let dropDownButton = document.querySelector(".filter .text");
-// let dropDown = document.querySelector(".filter");
-// let buttons = document.querySelectorAll(".dropdown-button");
+let dropDownButton = document.querySelector(".filter .text");
+let dropDown = document.querySelector(".filter");
+let buttons = document.querySelectorAll(".dropdown-button");
 
-// dropDown.addEventListener("click", () => {
-//   document.querySelector(".filter__menu").classList.remove("hidden");
-//   document.querySelector(".filter__menu").classList.add("block");
-//   dropDown.classList.remove("border-[#606060]");
-//   dropDown.classList.add("border-[#f6b828]");
-// });
+dropDown.addEventListener("click", () => {
+  document.querySelector(".filter__menu").classList.remove("hidden");
+  document.querySelector(".filter__menu").classList.add("block");
+  dropDown.classList.remove("border-[#606060]");
+  dropDown.classList.add("border-[#f6b828]");
+});
 
-// for (let a of buttons) {
-//   a.addEventListener("click", (event) => {
-//     document.querySelector(".filter__menu").classList.remove("block");
-//     document.querySelector(".filter__menu").classList.add("hidden");
-//     dropDown.classList.remove("border-[#f6b828]");
-//     dropDown.classList.add("border-[#606060]");
-//     dropDownButton.textContent = event.target.textContent;
-//   });
-// }
+for (let a of buttons) {
+  a.addEventListener("click", (event) => {
+    document.querySelector(".filter__menu").classList.remove("block");
+    document.querySelector(".filter__menu").classList.add("hidden");
+    dropDown.classList.remove("border-[#f6b828]");
+    dropDown.classList.add("border-[#606060]");
+    dropDownButton.textContent = event.target.textContent;
+  });
+}

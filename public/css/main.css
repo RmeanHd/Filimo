@@ -9023,6 +9023,10 @@ html:has(.drawer-open.drawer-open) {
   margin-bottom: 32px;
 }
 
+.mb-\[48px\] {
+  margin-bottom: 48px;
+}
+
 .mb-\[8px\] {
   margin-bottom: 8px;
 }
@@ -9071,6 +9075,10 @@ html:has(.drawer-open.drawer-open) {
   margin-top: 190px;
 }
 
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .mt-\[2px\] {
   margin-top: 2px;
 }
@@ -9083,12 +9091,8 @@ html:has(.drawer-open.drawer-open) {
   margin-top: 8px;
 }
 
-.mb-\[48px\] {
-  margin-bottom: 48px;
-}
-
-.mt-\[20px\] {
-  margin-top: 20px;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .box-border {
@@ -9275,10 +9279,6 @@ html:has(.drawer-open.drawer-open) {
   height: 388px;
 }
 
-.h-\[400px\] {
-  height: 400px;
-}
-
 .h-\[40px\] {
   height: 40px;
 }
@@ -9307,6 +9307,14 @@ html:has(.drawer-open.drawer-open) {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[70px\] {
+  height: 70px;
+}
+
 .min-h-\[164px\] {
   min-height: 164px;
 }
@@ -9327,6 +9335,10 @@ html:has(.drawer-open.drawer-open) {
   min-height: 376px;
 }
 
+.min-h-\[400px\] {
+  min-height: 400px;
+}
+
 .min-h-\[500px\] {
   min-height: 500px;
 }
@@ -9337,10 +9349,6 @@ html:has(.drawer-open.drawer-open) {
 
 .min-h-\[800px\] {
   min-height: 800px;
-}
-
-.min-h-\[400px\] {
-  min-height: 400px;
 }
 
 .w-52 {
@@ -9465,10 +9473,6 @@ html:has(.drawer-open.drawer-open) {
 
 .min-w-\[70px\] {
   min-width: 70px;
-}
-
-.max-w-\[1200px\] {
-  max-width: 1200px;
 }
 
 .max-w-\[1320px\] {
@@ -10398,12 +10402,12 @@ html:has(.drawer-open.drawer-open) {
   border-radius: var(--rounded-btn, 0.5rem);
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-b {
@@ -10931,10 +10935,6 @@ html:has(.drawer-open.drawer-open) {
 .py-\[64px\] {
   padding-top: 64px;
   padding-bottom: 64px;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .pb-\[15px\] {
@@ -11573,10 +11573,6 @@ html:has(.drawer-open.drawer-open) {
   transition-duration: 200ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -11722,6 +11718,10 @@ html:has(.drawer-open.drawer-open) {
   }
 }
 
+.hover\:bg-\[\#17924e\]\/80:hover {
+  background-color: rgb(23 146 78 / 0.8);
+}
+
 .hover\:bg-\[\#5d5b5b\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(93 91 91 / var(--tw-bg-opacity));
@@ -11740,28 +11740,6 @@ html:has(.drawer-open.drawer-open) {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#179\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 119 153 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#17924e\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 146 78 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#17924e\]\/30:hover {
-  background-color: rgb(23 146 78 / 0.3);
-}
-
-.hover\:bg-\[\#17924e\]\/65:hover {
-  background-color: rgb(23 146 78 / 0.65);
-}
-
-.hover\:bg-\[\#17924e\]\/80:hover {
-  background-color: rgb(23 146 78 / 0.8);
 }
 
 .hover\:fill-white:hover {
@@ -11904,6 +11882,18 @@ html:has(.drawer-open.drawer-open) {
     width: 100%;
   }
 
+  .mobile\:max-w-\[370px\] {
+    max-width: 370px;
+  }
+
+  .mobile\:max-w-\[385px\] {
+    max-width: 385px;
+  }
+
+  .mobile\:max-w-\[390px\] {
+    max-width: 390px;
+  }
+
   .mobile\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -11920,6 +11910,10 @@ html:has(.drawer-open.drawer-open) {
     right: 33%;
   }
 
+  .mobileL\:block {
+    display: block;
+  }
+
   .mobileL\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -11928,6 +11922,10 @@ html:has(.drawer-open.drawer-open) {
 @media (min-width: 770px) {
   .tablet\:bottom-\[100px\] {
     bottom: 100px;
+  }
+
+  .tablet\:left-\[50px\] {
+    left: 50px;
   }
 
   .tablet\:right-\[33\%\] {
@@ -11972,6 +11970,10 @@ html:has(.drawer-open.drawer-open) {
 
   .tablet\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .tablet\:max-w-\[600px\] {
+    max-width: 600px;
   }
 
   .tablet\:grid-cols-3 {
@@ -12032,6 +12034,10 @@ html:has(.drawer-open.drawer-open) {
 
   .laptop\:w-auto {
     width: auto;
+  }
+
+  .laptop\:max-w-\[1200px\] {
+    max-width: 1200px;
   }
 
   .laptop\:max-w-\[1320px\] {
