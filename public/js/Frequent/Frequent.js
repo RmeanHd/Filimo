@@ -43,7 +43,7 @@ const Frequent = async () => {
 
     
   
-    let res = await axios.get("http://localhost:3000/frequent");
+    let res = await axios.get("https://rmeanhd.github.io/Filimo-database/frequent.json");
     let frequent = res.data.map((item) => {
       return `
       <div class="w-full text flex flex-wrap justify-center mb-8">
