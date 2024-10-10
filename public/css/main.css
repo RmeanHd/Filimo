@@ -8823,10 +8823,6 @@ html:has(.drawer-open.drawer-open) {
   inset-inline-end: 0.25rem;
 }
 
-.left-2 {
-  left: 0.5rem;
-}
-
 .left-3 {
   left: 0.75rem;
 }
@@ -11561,6 +11557,12 @@ html:has(.drawer-open.drawer-open) {
   transition-duration: 150ms;
 }
 
+.transition-\[display\] {
+  transition-property: display;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-100 {
   transition-duration: 100ms;
 }
@@ -11571,6 +11573,10 @@ html:has(.drawer-open.drawer-open) {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .ease-in {
@@ -11716,6 +11722,14 @@ html:has(.drawer-open.drawer-open) {
     --tw-bg-opacity: 1;
     background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
   }
+}
+
+.hover\:min-h-\[\]:hover {
+  min-height: ;
+}
+
+.hover\:min-h-\[60px\]:hover {
+  min-height: 60px;
 }
 
 .hover\:bg-\[\#17924e\]\/80:hover {

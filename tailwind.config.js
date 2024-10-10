@@ -13,6 +13,10 @@ export default {
       // => @media (min-width: 1024px) { ... }
     },
     extend: {
+      transitionProperty: {
+        'height': 'height',
+        'display': 'block',
+      },
       backgroundImage: {
         header:
           "url('https://www.golestan.com/wp-content/uploads/2023/01/header-back-1.png')",

@@ -23,7 +23,7 @@ const New = async () => {
           slidesPerView: 8,
         },
       },
-      loop: true,
+
         spaceBetween: 0,
         
       });
