@@ -40,8 +40,6 @@ clickme.addEventListener("click", () => {
   tab.classList.add("grid");
 });
 
-
-
 let dropDownButton = document.querySelector(".filter .text");
 let dropDown = document.querySelector(".filter");
 let buttons = document.querySelectorAll(".dropdown-button");

@@ -12,34 +12,7 @@ const Slider = async () => {
           <img class="object w-full h-[inherit] mobile:block tablet:hidden laptop:hidden" src=${item.mobileSrc} alt=${item.alt} />
           <img class="absolute laptop:w-auto laptop:h-auto mobile:max-w-[188px] mobile:h-[150px] tablet:top-[32%] mobile:bottom-[150px] right-6 " src=${item.movieLogo} alt=${item.movieAlt} />
           <img class="absolute w-[140px] h-[20px] tablet:top-[59%] mobile:bottom-[120px]  right-6 ml-4 my-[16px]" src=${item.exclusive} alt=${item.alt} />
-          <div class="exclusive absolute h-[28px] tablet:top-[59%] mobile:bottom-[120px] right-[180px] bg-[#19191940] px-[8px] py-[4px] my-[12px] text-[12px] text-[#e8e8e8] font-bold backdrop-blur-2xl rounded-2xl flex">
-              <svg class="w-[18px] h-[18px] fill-white ml-1 " viewBox="0 0 24 24">
-                <g id="ui-icon-calendar">
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7V18C21 19.1046 20.1046 20 19 20H5C3.89543 20 3 19.1046 3 18V7ZM19 7H5V18H19V7Z"
-                  ></path>
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M20 13H4V11H20V13Z"
-                  ></path>
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 9C7.44772 9 7 8.55228 7 8L7 4C7 3.44772 7.44772 3 8 3C8.55228 3 9 3.44772 9 4L9 8C9 8.55228 8.55228 9 8 9Z"
-                  ></path>
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M16 9C16.5523 9 17 8.55228 17 8L17 4C17 3.44772 16.5523 3 16 3C15.4477 3 15 3.44772 15 4L15 8C15 8.55228 15.4477 9 16 9Z"
-                  ></path>
-                </g>
-              </svg>
-
-                ${item.time}     
-          </div>
+          
           <div
               class="details w-[270px] h-auto text-white text-[17px] font-thin drop-shadow-[0_1px_6px_rgba(0,0,0,0.3)] absolute tablet:top-[68%] right-6 mobile:bottom-[35px]">
               <div class="w-full h-[inherit] text-start pb-[15px]">
