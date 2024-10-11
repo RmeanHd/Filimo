@@ -9491,6 +9491,22 @@ html:has(.drawer-open.drawer-open) {
   max-width: 285px;
 }
 
+.max-w-\[140px\] {
+  max-width: 140px;
+}
+
+.max-w-\[14px\] {
+  max-width: 14px;
+}
+
+.max-w-\[1460px\] {
+  max-width: 1460px;
+}
+
+.max-w-\[1455px\] {
+  max-width: 1455px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
