@@ -44,7 +44,6 @@ const Special = async () => {
                 src=${slide.src}
                 alt=${slide.alt}
               />
-              <img class="absolute w-[100px] h-[14px] object-cover bottom-1 laptop:right-[30%] tablet:right-[33%] mobileL:right-[33%] mobile:right-[40%] opacity-95" src=${slide.exclusive}>
               <div class="w-[80px] h-[20px] absolute top-1 left-3 bg-[#1cb561] rounded-[50px] text-white font-medium text-[11px] px-[7px] py-[1px]">
               ${slide.freetext}
               </div>
