@@ -76,8 +76,7 @@ const Special = async () => {
         `;
       }
     });
-    document
-      .querySelector(".special .special__tabs").insertAdjacentHTML("beforeend", special.join(""));
+    document.querySelector(".special .special__tabs").insertAdjacentHTML("beforeend", special.join(""));
   } catch (error) {
     console.log(error.message);
   }
