@@ -37,6 +37,6 @@ const SpecialExtra = async () => {
     
           
         `
-  });document.querySelector(".tab").insertAdjacentHTML("beforeend",extra.join(""))
+  });document.querySelector(".special .tab").insertAdjacentHTML("beforeend",extra.join(""))
 };
 export default SpecialExtra;
