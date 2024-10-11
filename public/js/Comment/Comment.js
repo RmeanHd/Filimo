@@ -3,7 +3,7 @@ const Comment = async () => {
       let res = await axios.get("https://rmeanhd.github.io/Filimo-database/comments.json");
       let comments = res.data.map((item) => {
           return `
-          <div class="comments__main px-[60px] w-full max-w-[1440px] h-[260px] relative">
+          <div class="comments__main px-[60px] w-full max-w-[1450px] h-[260px] relative">
           <div class="comments__title w-full mb-10 justify-between ">
             <div
               class="w-full text-white font-bold leading-6 text-[17px] text-right"
