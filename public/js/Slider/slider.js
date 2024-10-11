@@ -10,7 +10,7 @@ const Slider = async () => {
           return `<div class="swiper-slide relative">
           <img class="object w-full tablet:block laptop:block desktop:block min-h-[800px] mt-[190px] mobile:hidden" src=${item.desktopSrc} alt=${item.alt} />
           <img class="object w-full h-[inherit] mobile:block tablet:hidden laptop:hidden" src=${item.mobileSrc} alt=${item.alt} />
-          <img class="absolute laptop:w-auto laptop:h-auto mobile:w-[188px] mobile:h-[150px] tablet:top-[32%] mobile:bottom-[150px] right-6 " src=${item.movieLogo} alt=${item.movieAlt} />
+          <img class="absolute laptop:w-auto laptop:h-auto mobile:max-w-[188px] mobile:h-[150px] tablet:top-[32%] mobile:bottom-[150px] right-6 " src=${item.movieLogo} alt=${item.movieAlt} />
           <img class="absolute w-[140px] h-[20px] tablet:top-[59%] mobile:bottom-[120px]  right-6 ml-4 my-[16px]" src=${item.exclusive} alt=${item.alt} />
           <div class="exclusive absolute h-[28px] tablet:top-[59%] mobile:bottom-[120px] right-[180px] bg-[#19191940] px-[8px] py-[4px] my-[12px] text-[12px] text-[#e8e8e8] font-bold backdrop-blur-2xl rounded-2xl flex">
               <svg class="w-[18px] h-[18px] fill-white ml-1 " viewBox="0 0 24 24">
