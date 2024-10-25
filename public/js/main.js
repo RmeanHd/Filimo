@@ -21,14 +21,7 @@ Cinema();
 Comment();
 Frequent();
 Footer();
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 0,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  }
-});
+
 
 let clickme = document.querySelector(".click");
 let tab = document.querySelector(".click .tab");
