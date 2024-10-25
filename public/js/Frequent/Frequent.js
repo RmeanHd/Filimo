@@ -16,7 +16,8 @@ const Frequent = async () => {
             q.classList.add("ease-out");
             q.classList.add("h-auto");
             if (answer.classList.contains("hidden")){
-              svg.classList.add("rotate-45");
+              svg.classList.remove("rotate-45");
+
               answer.classList.remove("hidden");
               answer.classList.add("block");
               answer.classList.add("transition-all");
@@ -29,7 +30,8 @@ const Frequent = async () => {
               text.classList.add("ease-linear");
               text.classList.remove("text-white");
             } else{
-              svg.classList.remove("rotate-45");
+              svg.classList.add("rotate-45");
+
               answer.classList.remove("block");
               answer.classList.add("hidden");
               text.classList.remove("text-[#f4843f]");
@@ -69,7 +71,7 @@ const Frequent = async () => {
                   ${tab.question}
                 </div>
                 <svg
-                  class="w-[14px] h-[14px] fill-[#ff9800] question__svg ease-linear duration-150"
+                  class="w-[14px] h-[14px] fill-[#ff9800] question__svg ease-linear duration-150 transform rotate-45"
                   viewBox="0 0 24 24"
                 >
                   <g id="ui-icon-close" viewBox="0 0 24 24">
