@@ -61,12 +61,7 @@ const Sliders = async () => {
                     ${slide.freetext}
                     </div>
                     <div class="w-full h-[230px] group absolute bottom-[+44.5px]">
-                    <div class="w-[90%] h-[inherit] absolute opacity-60 top-[-5px] group-hover:top-0 right-[5%] -z-10 ease-linear duration-100">
-                    <img class="object-cover" src=${slide.src}/>
-                    </div>
-                    <div class="w-[80%] h-[inherit] absolute opacity-60 top-[-11px] group-hover:top-0 right-[10%] -z-10 ease-linear duration-100">
-                    <img class="object-cover" src=${slide.src}/>
-                    </div>
+                    
                         <div
                         class="w-full h-full hover__main group-hover:flex flex-wrap items-end group-hover:bg-[#292929]/[0.7] group-hover:ease-linear duration-100 rounded-[8px]"
                         >
